@@ -20,6 +20,7 @@ var Landing = React.createClass({
     this.props.navigator.push({
       title:'Scully',
       component: RepProfile,
+
     })
   },
 
