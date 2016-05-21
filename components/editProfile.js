@@ -21,7 +21,7 @@ var EditProfile = React.createClass({
   },
   getInitialState: function() {
     return {
-      person: this.props.person,
+      person: Object.assign({},this.props.person),
       date: this.props.date,
       timeZoneOffsetInHours: this.props.timeZoneOffsetInHours,
     };
